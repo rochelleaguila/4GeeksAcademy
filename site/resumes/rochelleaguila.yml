@@ -1,0 +1,189 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rochelle
+    last_name: Aguila
+    
+    # Define yourself in 4-5 words
+    motto: I like scaling businesses
+    
+    # Focus
+    focus: Business Development and Sales Management
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      With over 8 years of experience, I've proactively navigated the dynamic landscapes of sales and business development. My core drive is to tackle challenges and craft outstanding customer experiences. At the heart of my approach lies a commitment to leadership and self-motivation. My journey is a blend of navigating hurdles and nurturing enduring relationships, where mutual growth is the ultimate goal. My forte lies in forging robust partnerships. I am dedicated to knitting businesses together and nurturing their expansion, consistently seeking innovative avenues to enhance revenue streams. Change is a friend, not a foe. Challenges are opportunities cloaked in complexity, stepping stones to elevate the brands I'm privileged to represent. Adapting to new situations and surmounting obstacles are what fuel my drive.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQGch0thfwga3g/profile-displayphoto-shrink_800_800/0/1677607727095?e=1701907200&v=beta&t=ZaliTB1fhXfHmeB1pdtA2xXzXxE5al-ZJaTzoVCX94g
+
+    # Contact Information
+    email: rochelle@rochelleaguila.com #optional
+    phone: 786 916 0993 #optional
+    website: rochelleaguila.com #optional
+    linkedin: rochelleaguila #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: rochelleaguila
+    
+    twitter: rochelleaguila #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      # - idiom: French
+      #   level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Reading
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: National Team Lead
+      time: 2015 - Present
+      company: Lakeview Loan Servicing
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        Trained national team members and improved onboarding in alignment with company service standards and objectives which increased the employee retention rate by 20%.
+
+
+          - Bullet point
+          - Bullet point
+
+    - role: Brand Owner
+      time: 2014 - 2015
+      company: Havana Skin Studio, LLC
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Developed and implemented business strategy and marketing plans, resulting in a 50% increase in revenue over the first year of operation.
+
+
+          - Bullet point
+          - Bullet point
+
+    - role: Brand Owner
+      time: 2012 - 2014
+      company: Koush Beauty, LLC
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Built and maintained relationships with real estate agents, builders, and other stakeholders in the industry.
+
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
